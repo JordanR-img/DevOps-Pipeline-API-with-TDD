@@ -1,0 +1,22 @@
+{
+  "name": "mission3",
+  "version": "1.0.0",
+  "description": "mission3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test":"mocha"
+  },
+  "author": "Jordan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "supertest": "^6.3.2"
+  }
+}
