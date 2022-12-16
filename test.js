@@ -17,16 +17,16 @@ describe('CalculatePremium()', () => {
     expect(actual).to.equal(expected)
   });
 
-  // it('When either input is left at 0', function () {
-  //   //arrange
-  //   const carValue = 0;
-  //   const riskRating = 3;
-  //   const expected = "Values need to be 1 or above!";
-  //   //act
-  //   const actual = CalculatePremium(carValue, riskRating)
-  //   //assert
-  //   expect(actual).to.equal(expected)
-  // });
+  it('When either input is left at 0', function () {
+    //arrange
+    const carValue = 0;
+    const riskRating = 3;
+    const expected = "Values need to be 1 or above!";
+    //act
+    const actual = CalculatePremium(carValue, riskRating)
+    //assert
+    expect(actual).to.equal(expected)
+  });
   
   it("when risk rating is greater then 5", function () {
     //arrange
